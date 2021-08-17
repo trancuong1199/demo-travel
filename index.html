@@ -1,0 +1,617 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
+    <link rel="stylesheet" href="./assets/css/base.css">
+    <link rel="stylesheet" href="./assets/css/main.css">
+    <link rel="stylesheet" href="./assets/fonts/fontawesome-free-5.15.3-web/fontawesome-free-5.15.3-web/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,500;1,300;1,400&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Nanum+Gothic&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="app">
+        <header class="header">
+            <div class="grid">
+                <!-- Header navbar -->
+                <nav class="header__navbar">
+                    <ul class="header__navbar-list">
+                        <img src="./assets/img/logo-white (1).png" alt="" class="header__navbar-list-shop--name">
+                    </ul>
+    
+                    <ul class="header__navbar-list">
+                        <li class="header__navbar-list-item header__navbar-name header__navbar-name-home">
+                            Home
+                            <ul class="subnav">
+                                <li><a class="subnav-child" href="">Travel Agency</a></li>
+                                <li><a class="subnav-child" href="">Winter Holidays</a></li>
+                                <li><a class="subnav-child" href="">Exotic Destinations</a></li>
+                                <li><a class="subnav-child" href="">Summer Holidays</a></li>
+                                <li><a class="subnav-child" href="">City Tours</a></li>
+                                <li><a class="subnav-child" href="">New Year Trips</a></li>
+                                <li><a class="subnav-child" href="">Destinations Carousel</a></li>
+                                <li><a class="subnav-child" href="">Wine Tours</a></li>
+                                <li><a class="subnav-child" href="">Vocation Showcase</a></li>
+                                <li><a class="subnav-child" href="">Landing</a></li>
+                            </ul>
+                        </li>
+                        <li class="header__navbar-list-item header__navbar-name header__navbar-name-Pages">
+                            Pages
+                            <ul class="subnav-Pages">
+                                <li class="subnav-child-Pages">About Us</li>
+                                <li class="subnav-child-Pages">What We Offer</li>
+                                <li class="subnav-child-Pages">Our Team</li>
+                                <li class="subnav-child-Pages">Get In Touch</li>
+                                <li class="subnav-child-Pages">Contact Us</li>
+                                <li class="subnav-child-Pages">FAQ Page</li>
+                                <li class="subnav-child-Pages">Comming Soon</li>
+                                <li class="subnav-child-Pages">Error Page</li>
+                            </ul>
+                        </li>
+                        <li class="header__navbar-list-item header__navbar-name header__navbar-name-Destinations">
+                            Destinations
+                            <ul class="subnav-Destinations">
+                                <li class="subnav-child-Destinations">Destinations List</li>
+                                <li class="subnav-child-Destinations">Destinations Slider</li>
+                                <li class="subnav-child-Destinations">Destinations Item</li>
+                            </ul>
+                        </li>
+                        <li class="header__navbar-list-item header__navbar-name header__navbar-name-Tours">
+                            Tours
+                            <ul class="subnav-Tours">
+                                <li class="subnav-child-Tours">Standard List</li>
+                                <li class="subnav-child-Tours">Gallery List</li>
+                                <li class="subnav-child-Tours">Spit List</li>
+                                <li class="subnav-child-Tours">Tour Item</li>
+                            </ul>
+                        </li>
+                        <li class="header__navbar-list-item header__navbar-name header__navbar-name-Blog">
+                            Blog
+                            <ul class="subnav-Blog">
+                                <li class="subnav-child-Blog">Blog Masonry</li>
+                                <li class="subnav-child-Blog">Blog Standard</li>
+                                <li class="subnav-child-Blog">Post Types</li>
+                            </ul>
+                        </li>
+                        <li class="header__navbar-list-item header__navbar-name header__navbar-name-Shop">
+                            Shop
+                            <ul class="subnav-Shop">
+                                <li class="subnav-child-Shop">Product List</li>
+                                <li class="subnav-child-Shop">Product Single</li>
+                                <li class="subnav-child-Shop">Shop Layouts</li>
+                                <li class="subnav-child-Shop">Shop Pages</li>
+                            </ul>
+                        </li>
+                        <li class="header__navbar-list-item header__navbar-name">Elements</li>
+                    </ul>
+    
+                    <ul class="header__navbar-list">
+                        <li class="header__navbar-list-item-icon header__navbar-list-item-icon-bag">
+                            <i class="fas fa-shopping-bag"></i>
+                                <ul class="subnav-bag">
+                                    <li class="subnav-child-bag">No products in the cart.</li>
+                                </ul>
+                        </li>
+                        <li class="header__navbar-list-item-icon">
+                            <i class="fas fa-search"></i>
+                        </li>
+                        <li class="header__navbar-list-item-icon">
+                            <i class="fas fa-list"></i>
+                        </li>
+                    </ul>
+                </nav>
+            </div>
+                <!-- header more -->
+            <div class="header-more">
+                <div class="header-more-cart">
+                    <i class="fas fa-cart-plus"></i>
+                </div>
+
+                <div class="header-more-cat">
+                    <i class="fas fa-cat"></i>
+                </div>
+            </div>
+        </header>
+
+
+        <!-- Slider  -->
+        <div id="slider">
+                <div class="text-content">
+                    <p class="text-heading font-medium500">From Alps</p>
+                    <h2 class="text-lane2">Snow Adventure</h2>
+                    <div class="text-description">Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis Theme</div>
+                </div>
+                <div class="slider-icon">
+                    <i class="slider-icon-prev-btn fas fa-angle-left"></i>
+                    <i class="slider-icon-next-btn fas fa-angle-right"></i>
+                </div>
+        </div>
+        
+        <!-- Container -->
+        <div class="container">
+            <!-- Container img -->
+            <div class="container-img-list">
+                        <div class="container-img-item">
+                            <img src="./assets/img/photo-body/tour-featured-img-14.jpg" alt="" class="container-img-item-Mountain">
+                            <div class="container-img-item-service">
+                                <div class="container-img-item-service-child">
+                                    <i class="far fa-calendar"></i>
+                                    <span class="">1</span>
+                                    <i class="fas fa-user-friends"></i>
+                                    <span>13+</span>
+                                    <i class="fas fa-map-marker-alt"></i>
+                                    <span class="container-img-item-place">Skiing</span>
+                                </div>
+                            </div>
+                            <h2 class="container-img-name">Winter Action</h2>
+                            <p class="container-img-name-small">Lorem ipsum dolor sit amet, consectetuer adipiscing el...</p>
+                            <ul class="container-img-price">
+                                <li class="img-price-dollar">$1300</li>
+                                <li class="img-price-assess">
+                                    <i class="fas fa-star"></i>
+                                    6.0
+                                </li>
+                                <li class="img-price-end">Good</li>
+                            </ul>
+                        </div>
+                    
+                                                        
+                    <div class="container-img-item">
+                        <img src="./assets/img/photo-body/tour-featured-img-17 (1).jpg" alt="" class="container-img-item-Mountain">
+                        <div class="container-img-item-service">
+                            <div class="container-img-item-service-child">
+                                <i class="far fa-calendar"></i>
+                                <span class="">3</span>
+                                <i class="fas fa-user-friends"></i>
+                                <span>17+</span>
+                                <i class="fas fa-map-marker-alt"></i>
+                                <span class="container-img-item-place">Lorem</span>
+                            </div>
+                        </div>
+                        <h2 class="container-img-name">Macgic Of Italy</h2>
+                        <p class="container-img-name-small">Lorem ipsum dolor sit amet, consectetuer adipiscing el...</p>
+                        <ul class="container-img-price">
+                            <li class="container-img-price-dollar">$800</li>
+                            <li class="container-img-price-assess">
+                                <i class="fas fa-star"></i>
+                                9.0
+                            </li>
+                            <li class="container-img-price-end">Normal</li>
+                        </ul>
+                    </div>
+
+                    <div class="container-img-item">
+                        <img src="./assets/img/photo-body/tour-featured-img-17.jpg" alt="" class="container-img-item-Mountain">
+                        <div class="container-img-item-service">
+                            <div class="container-img-item-service-child">
+                                <i class="far fa-calendar"></i>
+                                <span class="">9</span>
+                                <i class="fas fa-user-friends"></i>
+                                <span>29+</span>
+                                <i class="fas fa-map-marker-alt"></i>
+                                <span class="container-img-item-place">Dolor</span>
+                            </div>
+                        </div>
+                        <h2 class="container-img-name">Skiing In Alps</h2>
+                        <p class="container-img-name-small">Lorem ipsum dolor sit amet, consectetuer adipiscing el...</p>
+                        <ul class="container-img-price">
+                            <li class="container-img-price-dollar">$2500</li>
+                            <li class="container-img-price-assess">
+                                <i class="fas fa-star"></i>
+                                7.5
+                            </li>
+                            <li class="container-img-price-end">Cool</li>
+                        </ul>
+                    </div>
+
+                    <div class="container-img-item">
+                        <img src="./assets/img/photo-body/tour-featured-img-19.jpg" alt="" class="container-img-item-Mountain">
+                        <div class="container-img-item-service">
+                            <div class="container-img-item-service-child">
+                                <i class="far fa-calendar"></i>
+                                <span class="">11</span>
+                                <i class="fas fa-user-friends"></i>
+                                <span>18+</span>
+                                <i class="fas fa-map-marker-alt"></i>
+                                <span class="container-img-item-place">Snow</span>
+                            </div>
+                        </div>
+                        <h2 class="container-img-name">Snow Surfing</h2>
+                        <p class="container-img-name-small">Lorem ipsum dolor sit amet, consectetuer adipiscing el...</p>
+                        <ul class="container-img-price">
+                            <li class="container-img-price-dollar">$500</li>
+                            <li class="container-img-price-assess">
+                                <i class="fas fa-star"></i>
+                                5.0
+                            </li>
+                            <li class="container-img-price-end">Great</li>
+                        </ul>
+                    </div>
+            </div>
+
+            <!-- Button circle -->
+            <div class="container-button">
+                <button class="container-button-circle"></button>
+                <button class="container-button-circle"></button>
+            </div>
+
+            <!-- Container-video -->
+            <div class="container-video">
+                <div class="container-video-header">
+                    <p class="container-video-header-text-small font-medium500">Try Now</p>
+                    <h2 class="container-video-header-text-big">Winter Sports</h2>
+                </div>
+                <div class="container-video-body">
+                    <video  controls poster="./assets/img/photo-body/h-skiing-video-1.jpg" src="./assets/video/Alps 2017 skiing GoPro Hero 5.mp4" class="container-video-body-winter-tour"></video>
+                </div>
+                <span class="container-video-paragraph">Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis Theme natoque penatibus et magnis dis sit amet, consectetuer adipiscing elit Etiam rhoncus. Maecenas tempus, tellus eget condimentum rhoncus, sem quam semper libero, sit ame</span>
+                <button class="container-video-button">VIEW MORE</button>
+            </div>
+
+            <!-- Container Reviews -->
+            <div class="Container-reviews">
+                <div class="Container-reviews-text">
+                    <h2>Top Reviews</h2>
+                    <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum</p>
+                </div>
+
+                <div class="Container-reviews-body">
+                    <div class="Container-reviews-assess">
+                        <div class="Container-reviews-assess-person">
+                            <div class="Container-reviews-assess-person-img">
+                                <img src="./assets/img/person/user-img-4.png" alt="">
+                            </div>
+                            <ul class="Container-reviews-assess-person-text">
+                                <li class="Container-reviews-assess-person-country">Taipei</li>
+                                <li class="Container-reviews-assess-person-star">
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                </li>
+                                <li class="Container-reviews-assess-person-comment">Fa etor eviuas lwqedit tas, vut et nihc egam yubulas. Ei euvy </li>
+                                <li class="Container-reviews-assess-person-name">Susan Day</li>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <div class="Container-reviews-assess">
+                        <div class="Container-reviews-assess-person">
+                            <div class="Container-reviews-assess-person-img">
+                                <img src="./assets/img/person/user-img-5.png" alt="">
+                            </div>
+    
+                            <ul class="Container-reviews-assess-person-text">
+                                <li class="Container-reviews-assess-person-country">Kaohsiung</li>
+                                <li class="Container-reviews-assess-person-star">
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                </li>
+                                <li class="Container-reviews-assess-person-comment">Fa etor eviuas lwqedit tas, vut et nihc egam yubulas. Ei euvy </li>
+                                <li class="Container-reviews-assess-person-name">Roger Brooks</li>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <div class="Container-reviews-assess">
+                        <div class="Container-reviews-assess-person">
+                            <div class="Container-reviews-assess-person-img">
+                                <img src="./assets/img/person/user-img-7.png" alt="">
+                            </div>
+    
+                            <ul class="Container-reviews-assess-person-text">
+                                <li class="Container-reviews-assess-person-country">Holland Canals</li>
+                                <li class="Container-reviews-assess-person-star">
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                </li>
+                                <li class="Container-reviews-assess-person-comment">Fa etor eviuas lwqedit tas, vut et nihc egam yubulas. Ei euvy </li>
+                                <li class="Container-reviews-assess-person-name">Ema Cooper</li>
+                            </ul>
+                        </div>
+                    </div>
+
+                </div>
+
+                <div class="Container-reviews-button">
+                    <button class="Container-reviews-button-circle"></button>
+                    <button class="Container-reviews-button-circle"></button>
+                    <button class="Container-reviews-button-circle"></button>
+                </div>
+                
+            </div>
+
+            <!-- Container Holiday -->
+            <div class="Container-holiday">
+                <div class="Container-holiday-header">
+                    <p>Enjoy Your</p>
+                    <h2>Winter Holiday</h2>
+                    <h3>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor lorem ipsum.</h3>
+                </div>
+
+                <div class="Container-holiday-body">
+                    <div class="Container-holiday-body-camera">
+                        <img src="./assets/img/holiday/logo-white.png" alt="" class="Container-holiday-body-camera-img">
+
+                        <div class="Container-holiday-body-camera-text">
+                            <h2>Restaurants</h2>
+                            <p>Aenean commodo ligula eget dolor. Lorem ipsum</p>
+                        </div>
+                    </div>
+
+                    <div class="Container-holiday-body-camera">
+                        <img src="./assets/img/holiday/h1-custom-icon-img-2.png" alt="" class="Container-holiday-body-camera-img">
+
+                        <div class="Container-holiday-body-camera-text">
+                            <h2>Sighteeing</h2>
+                            <p>Aenean commodo ligula eget dolor. Lorem ipsum</p>
+                        </div>
+                    </div>
+
+                    <div class="Container-holiday-body-camera">
+                        <img src="./assets/img/holiday/h1-custom-icon-img-3.png" alt="" class="Container-holiday-body-camera-img">
+
+                        <div class="Container-holiday-body-camera-text">
+                            <h2>Shops & Boutiques</h2>
+                            <p>Aenean commodo ligula eget dolor. Lorem ipsum</p>
+                        </div>
+                    </div>
+
+                    <div class="Container-holiday-body-camera">
+                        <img src="./assets/img/holiday/h1-custom-icon-img-4.png" alt="" class="Container-holiday-body-camera-img">
+
+                        <div class="Container-holiday-body-camera-text">
+                            <h2>Where to Stay</h2>
+                            <p>Aenean commodo ligula eget dolor. Lorem ipsum</p>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+
+            <!-- Container Checkin -->
+            <div class="Container-checkin">
+                <div class="Container-checkin-photo">
+                    <!-- Container-checkin-photo-img -->
+                    <div class="Container-checkin-photo-img">
+                        <div class="Container-checkin-photo-img-people">
+                            <img src="./assets/img/person/our-team-img-6-1.jpg" alt="" class="Container-checkin-photo-img-people-selfie">
+                            
+                            <div class="Container-checkin-photo-img-people-info">
+                                <ul class="Container-checkin-photo-img-people-info-name">
+                                    <h2>Jack Burton</h2>
+                                    <p>Deq des sut perspi ciatis ynde oninis iste matus error sit bolu ptato dolor</p>
+                                    <i class="fab fa-twitter"></i>
+                                    <i class="fab fa-facebook-f"></i>
+                                    <i class="fab fa-instagram"></i>
+                                    <i class="fab fa-pinterest-p"></i>
+                                </ul>
+                            </div>
+                        </div>
+
+                        <div class="Container-checkin-photo-img-people">
+                            <img src="./assets/img/person/our-team-img-7-1.jpg" alt="" class="Container-checkin-photo-img-people-selfie">
+                            
+                            <div class="Container-checkin-photo-img-people-info">
+                                <ul class="Container-checkin-photo-img-people-info-name">
+                                    <h2>Jack Burton</h2>
+                                    <p>Deq des sut perspi ciatis ynde oninis iste matus error sit bolu ptato dolor</p>
+                                    <i class="fab fa-twitter"></i>
+                                    <i class="fab fa-facebook-f"></i>
+                                    <i class="fab fa-instagram"></i>
+                                    <i class="fab fa-pinterest-p"></i>
+                                </ul>
+                            </div>
+                        </div>
+
+                        <div class="Container-checkin-photo-img-people">
+                            <img src="./assets/img/person/our-team-img-8-1.jpg" alt="" class="Container-checkin-photo-img-people-selfie">
+                            
+                            <div class="Container-checkin-photo-img-people-info">
+                                <ul class="Container-checkin-photo-img-people-info-name">
+                                    <h2>Jack Burton</h2>
+                                    <p>Deq des sut perspi ciatis ynde oninis iste matus error sit bolu ptato dolor</p>
+                                    <i class="fab fa-twitter"></i>
+                                    <i class="fab fa-facebook-f"></i>
+                                    <i class="fab fa-instagram"></i>
+                                    <i class="fab fa-pinterest-p"></i>
+                                </ul>
+                            </div>
+                        </div>
+
+                        <div class="Container-checkin-photo-img-people">
+                            <img src="./assets/img/person/our-team-img-9.jpg" alt="" class="Container-checkin-photo-img-people-selfie">
+                            
+                            <div class="Container-checkin-photo-img-people-info">
+                                <ul class="Container-checkin-photo-img-people-info-name">
+                                    <h2>Jack Burton</h2>
+                                    <p>Deq des sut perspi ciatis ynde oninis iste matus error sit bolu ptato dolor</p>
+                                    <i class="fab fa-twitter"></i>
+                                    <i class="fab fa-facebook-f"></i>
+                                    <i class="fab fa-instagram"></i>
+                                    <i class="fab fa-pinterest-p"></i>
+                                </ul>
+                            </div>
+                        </div>
+
+                    </div>  
+                    
+                    <!-- Container-checkin-photo-number -->
+                    <div class="Container-checkin-photo-footer">
+                        <div class="Container-checkin-photo-footer-father">
+                            <div class="Container-checkin-photo-footer-father-child">
+                                <h2>698</h2>
+                                <p>Tourists</p>
+                            </div>
+
+                            <div class="Container-checkin-photo-footer-father-child">
+                                <h2>199</h2>
+                                <p>Years</p>
+                            </div>
+
+                            <div class="Container-checkin-photo-footer-father-child">
+                                <h2>562</h2>
+                                <p>Cottages</p>
+                            </div>
+
+                            <div class="Container-checkin-photo-footer-father-child">
+                                <h2>991</h2>
+                                <p>Restaurants</p>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+
+            <!-- Container Resort (Coppy ở phần "Container Holiday") -->
+            <div class="Container-holiday">
+                <div class="Container-holiday-header">
+                    <p>Choose Your</p>
+                    <h2>Winter Resort</h2>
+                    <h3>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor lorem ipsum.</h3>
+                </div>
+            </div>
+
+            <!-- Container footer -->
+            <div class="Container-footer">
+                <div class="Container-footer-place">
+                    <img src="./assets/img/holiday/destinations-featured-img-8-1.jpg" alt="" >
+                    <p>Slovenia</p>
+                </div>
+
+                <div class="Container-footer-place">
+                    <img src="./assets/img/holiday/destinations-featured-img-9-1.jpg" alt="" >
+                    <p>France</p>
+
+                    <div class="Container-footer-place-star">
+                        <i class="fas fa-star"></i>
+                    </div>
+                </div>
+
+                <div class="Container-footer-place">
+                    <img src="./assets/img/holiday/destinations-featured-img-10-1.jpg" alt="" >
+                    <p>Switgerland</p>
+                </div>
+            </div>
+
+        </div>
+
+        <footer class="footer">
+            <div class="footer-page">
+                <!-- footer page contact -->
+                <div class="footer-page-contact">
+                    <img src="./assets/img/logo-white (1).png" alt="" class="footer-page-contact-img">
+                    <span class="footer-page-contact-text">
+                        Lorem ipsum dolor sit ametco nsec te tuer adipiscing elitae
+                    </span>
+                    
+                    <div class="footer-page-contact-search">
+                        <div class="footer-page-contact-search-address">
+                            <i class="far fa-envelope"></i>
+                            <p>setsail@qode.com</p>
+                        </div>
+    
+                        <div class="footer-page-contact-search-address">
+                            <i class="fas fa-phone"></i>
+                            <p>1111 868 9999</p>
+                        </div>
+    
+                        <div class="footer-page-contact-search-address">
+                            <i class="fas fa-map-marker-alt"></i>
+                            <p>Broadway & Morris St, New York</p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- footer page time -->
+                <div class="footer-page-time">
+                    <span class="footer-page-time-header">
+                        Our Recent Posts
+                    </span>
+
+                    <div class="footer-page-time-body">
+                        <span class="footer-page-time-body-country">
+                            Visit Thailand, Bali And China
+                        </span>
+                        <span class="footer-page-time-body-year">
+                            September 7, 2021
+                        </span>
+                    </div>
+
+                    <div class="footer-page-time-body">
+                        <span class="footer-page-time-body-country">
+                            The Sound Of Our Jungle
+                        </span>
+                        <span class="footer-page-time-body-year">
+                            July 11, 2022
+                        </span>
+                    </div>
+
+                    <div class="footer-page-time-body">
+                        <span class="footer-page-time-body-country">
+                            New Year, New Resolutions!
+                        </span>
+                        <span class="footer-page-time-body-year">
+                            October 25, 2023
+                        </span>
+                    </div>
+                </div>
+                
+                <!-- footer page subscribe -->
+                <div class="footer-page-subscribe">
+                    <h2 class="footer-page-subscribe-header">
+                        Subscribe to our Newsletter
+                    </h2>
+                    <span class="footer-page-subscribe-text">
+                        Etiam rhoncus. Maecenas temp us, tellus eget condimentum rho
+                    </span>
+
+                    <div class="footer-page-subscribe-log-in">
+                        <div class="footer-page-subscribe-log-in-input">
+                            <i class="fas fa-user-edit"></i>
+                            <input type="text" class="footer-page-subscribe-log-in-name" placeholder="Name">
+                        </div>
+
+                        <div class="footer-page-subscribe-log-in-input">
+                            <i class="far fa-envelope"></i>
+                            <input type="text" class="footer-page-subscribe-log-in-name" placeholder="Email">
+                        </div>
+                    </div>
+
+                    <button class="footer-page-subscribe-btn">SUBSCRIBE</button>
+                </div>
+
+                <!-- footer page social -->
+                <div class="footer-page-social">
+                    <h2>Our Instagram</h2>
+                    <span>Aliquam lorem ante, dapibus inviver raqui feugiat a, tellus. Phasellus null</span>
+                    <div class="footer-page-social-img">
+                        <img src="./assets/img/footer/147668922_353624822278908_6497772582728081974_n.jpg" alt="" class="footer-page-social-img-child">
+                        <img src="./assets/img/footer/187292256_1231909843912819_8218902010913604241_n.jpg" alt="" class="footer-page-social-img-child">
+                        <img src="./assets/img/footer/189438951_520278792672466_1393766055664763055_n.jpg" alt="" class="footer-page-social-img-child">
+                        <img src="./assets/img/footer/28427151_1567844616664214_7108994430564040704_n.jpg" alt="" class="footer-page-social-img-child">
+                    </div>
+                </div>
+            </div>
+
+            <!-- footer end-->
+            <div class="footer-end">
+                <span>Powered by @</span>
+                <p>Qode Interactive 2018</p>
+            </div>
+        </footer>
+    </div>
+</body>
+
+</html>
