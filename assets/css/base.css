@@ -1,0 +1,48 @@
+:root {
+    --white-color: #fff;
+    --black-color: #000;
+    --text-color: #333;
+    --main-color: #3fd0d4;
+}
+
+* {
+    box-sizing: inherit;
+}
+
+html {
+    font-size: 62.5%;
+    line-height: 1.8rem;
+    font-family: 'Roboto', sans-serif;
+    box-sizing: border-box;
+}
+
+.font-medium500 {
+    font-family: 'Dancing Script', cursive;
+}
+
+.grid {
+    width: 1450px;
+    max-width: 100%;
+    margin: 0 auto;
+}
+
+.grid__full-width {
+    width: 100%;
+}
+
+.grid__grow {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+
+@keyframes subnavScroll {
+    from {
+        opacity: 0;
+        height: 0;
+    }
+    to {
+        opacity: 1;
+        height: 295;
+    }
+}
