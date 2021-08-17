@@ -400,15 +400,15 @@
 /* header more */
 
 .header-more {
-    margin-top: 100px;
+    margin-top: 230px;
 }
 
 .header-more-cart {
-    height: 45px;
-    width: 45px;
+    height: 40px;
+    width: 40px;
     background-color: var(--white-color);
     box-shadow: 0 0 9.8px 0.2px rgb(0 0 0 / 20%);
-    margin-left: 97.1%;
+    margin-left: 97.4%;
 }
 
 .header-more-cart i {
@@ -420,11 +420,11 @@
 }
 
 .header-more-cat {
-    height: 45px;
-    width: 45px;
+    height: 40px;
+    width: 40px;
     background-color: #ee2852;
     box-shadow: 0 0 9.8px 0.2px rgb(0 0 0 / 20%);
-    margin-left: 97.1%;
+    margin-left: 97.4%;
     margin-top: 6px;
 }
 
